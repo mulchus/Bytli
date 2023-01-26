@@ -43,10 +43,9 @@ def main():
     parser = argparse.ArgumentParser(description='Уменьшение ссылки или вывод кликов по ссылке bitlink')
     parser.add_argument(
         'url',
-        type=str,        nargs=1,
         help='введите ссылку для уменьшения или суммы кликов'
     )
-    user_input = parser.parse_args().url[0]
+    user_input = parser.parse_args().url
     if is_bitlink(bitly_token, user_input):
         try:
             clicks_count = count_clicks(bitly_token, user_input)
