@@ -40,6 +40,8 @@ where,
  -h, --help - view a short script help page
  
  url - long link (starting with http(s)://) or previously created short link (bitlink)
+ 
+If you have installed a virtual environment, then the command must be entered without a path to the script.
 
 #### Example 1:
 ```
@@ -105,6 +107,8 @@ python ПУТЬ_К_ПАПКЕ_СО_СКРИПТОМ\main.py [-h] url
   -h, --help - просмотр короткой страницы помощи по скрипту
   
   url - длинная ссылка (начиная с http(s)://) или ранее созданная короткая ссылка (bitlink)
+
+Если вы установили виртуальное окружение, то команда надо вводить без пути к скрипту
   
 #### Пример 1:
 ```
