@@ -41,7 +41,7 @@ where,
  
  url - long link (starting with http(s)://) or previously created short link (bitlink)
  
-If you have installed a virtual environment, then the command must be entered without a path to the script.
+If you have installed a virtual environment, then the command may be entered without a path to the script.
 
 #### Example 1:
 ```
@@ -108,7 +108,7 @@ python ПУТЬ_К_ПАПКЕ_СО_СКРИПТОМ\main.py [-h] url
   
   url - длинная ссылка (начиная с http(s)://) или ранее созданная короткая ссылка (bitlink)
 
-Если вы установили виртуальное окружение, то команда надо вводить без пути к скрипту
+Если вы установили виртуальное окружение, то команду можно вводить без пути к скрипту
   
 #### Пример 1:
 ```
