@@ -47,8 +47,6 @@ def main():
         help='введите ссылку для уменьшения или суммы кликов'
     )
     user_input = parser.parse_args().url[0]
-    # user_input = input('Введите ссылку: ')
-
     if is_bitlink(bitly_token, user_input):
         try:
             clicks_count = count_clicks(bitly_token, user_input)
