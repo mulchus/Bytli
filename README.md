@@ -23,7 +23,7 @@ It is recommended to use virtualenv/venv to isolate the project.
 Before starting, you need to create a file ".env" in PATH_TO_THE_FOLDER_WITH_SCRIPT\ 
 and configure the environment variables by writing in it:
 ```
-BITLY_TOKEN = 'Your token for the API of the bit ly service',
+BITLY_TOKEN='Your token for the API of the bit ly service'
 ```
 which is located in the personal account of the bitly service at the link:
 ```
@@ -90,7 +90,7 @@ pip install -r requirements.txt
 До запуска необходимо создать файл ".env" в папке ПУТЬ_К_ПАПКЕ_СО_СКРИПТОМ\
 и настроить переменные окружения, прописав в нем:
 ```
-BITLY_TOKEN = 'Ваш токен для API сервиса bitly', 
+BITLY_TOKEN='Ваш токен для API сервиса bitly' 
 ```
 который расположен в личном кабинете сервиса bitly по ссылке:
 ```
